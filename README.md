@@ -31,7 +31,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da solução: [Adicionar URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL do site ao vivo: [https://matheusmanuel.github.io/Shortly-URL-shortening-API-Challenge/](https://matheusmanuel.github.io/Shortly-URL-shortening-API-Challenge/)
 
 
 ### Construído com
