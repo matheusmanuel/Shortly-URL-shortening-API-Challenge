@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+:root {
+    --cyan: hsl(180, 66%, 49%);
+    --dark-Violet: hsl(257, 27%, 26%);
+    --red: hsl(0, 87%, 67%);
+    --gray: hsl(0, 0%, 75%);
+    --graysh-violet: hsl(257, 7%, 63%);
+    --very-dark-blue: hsl(255, 11%, 22%);
+    --very-dark-violet: hsl(260, 8%, 14%);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.btn {
+    background: var(--cyan);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/* nav */
+nav .container {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    margin-right: 35px;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+nav ul a {
+    margin-right: 25px;
+    color: var(--very-dark-blue)
+}
+
+nav ul .right {
+    margin-left: auto;
+}
+
+main .container {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+main .main__text {
+    width: 50vw;
+}
+
+main .main__text h1 {
+    font-size: 4em;
+}
+
+main .main__text button{
+    font-size: 18px;
+}
+
+main .main__text p {
+    color: var(--graysh-violet);
+    padding-right: 120px;
+    font-size: 18px;
+}
+
+main .main__text button {
+    margin-top: 25px;
+}
+
+main .main__img {
+    position: relative;
+    right: -220px;
+}
+
+/* shorten link */
+.shorten{
+    position: relative;
+    z-index: 1;
+}
+.shorten .container .bg {
+    background-image: url('../images/bg-shorten-desktop.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: var(--dark-Violet);
+}
+/* error */
+.shorten .container .bg.error input{
+    border: 3px solid var(--red);
+}
+.shorten .container .bg.error p.error{
+    display: block;
+    color: var(--red);
+}
+.shorten .container .bg .input-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shorten .container p.error{
+    display: none;
+    margin-top: 10px;
+}
+
+.shorten input[type=text] {
+    width: 90%;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 9px;
+    color: var(--graysh-violet);
+    border: 3px solid transparent;
+}
+
+.shorten button {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 9px;
+    background: var(--cyan);
+    width: 15%;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/* end shorten link */
+/* advanced */
+.advanced {
+    background-color: #F0F1F6;
+    padding-bottom: 10rem;
+    padding-top: 100px;
+    position: relative;
+    margin-top: -70px;
+}
+
+.advanced h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.advanced .container>p {
+    color: var(--graysh-violet);
+    margin: 0 auto;
+    text-align: center;
+    width: 45%;
+}
+
+.advanced .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    position: relative;
+}
+/* Links encurtados */
+.links-encurtados-container{
+    position: relative;
+    z-index: 2;
+}
+.links-encurtados-container .link{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 23px 33px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.links-encurtados-container .link .original{
+    font-size: 18px;
+}
+.links-encurtados-container .link .encurtado{
+    font-size: 20px;
+}
+.links-encurtados-container .link .encurtado{
+    color: var(--cyan);
+    margin-left: auto;
+}
+.links-encurtados-container .link .encurtado:hover{
+    text-decoration: underline;
+}
+.links-encurtados-container button.btn-copy{
+    background-color: var(--cyan);
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.links-encurtados-container button.btn-copy.copied{
+    background-color: var(--very-dark-blue);
+}
+/* end Links encurtados */
+.cards .card {
+    background-color: white;
+    width: 32%;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cards .card .card_img {
+    background-color: var(--dark-Violet);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -40px;
+}
+
+.cards .card .card_img img {
+    width: 50%;
+    height: 50%;
+}
+
+.cards .card .card_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.cards .card .card_text {
+    color: var(--graysh-violet);
+}
+
+.cards .line {
+    background-color: var(--cyan);
+    width: 100%;
+    margin: 0 auto;
+    height: 5px;
+    top: 130px;
+    position: absolute;
+}
+
+/* bost */
+.bost {
+    background-image: url(../images/bg-boost-desktop.svg);
+    background-color: var(--dark-Violet);
+    background-size: cover;
+    background-position: center;
+}
+
+.bost .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bost .container div {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.bost .container h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.bost .container button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 10px;
+}
+
+/* footer */
+footer {
+    padding: 50px 0;
+    background-color: var(--very-dark-violet);
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo-footer img {
+    filter: invert(1);
+}
+
+footer .row h3 {
+    color: white;
+}
+
+footer .row ul {
+    margin-top: 10px;
+}
+
+footer .row ul li {
+    color: var(--graysh-violet);
+}
+
+footer .medias-socias img {
+    margin-left: 10px;
+}
+/* alert internet */
+.alert-internet{
+    position: fixed;
+    top: 100%;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.185);
+    z-index: 10;
+    opacity: 0;
+}
+.alert-internet.open{
+    top: 80%;
+    opacity: 1;
+}
+.alert-internet img{
+    width: 50px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    main .main__text h1 {
+        font-size: 3.2em;
+    }
+}

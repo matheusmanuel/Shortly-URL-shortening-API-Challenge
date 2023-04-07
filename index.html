@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="main.js" defer></script>
+  <title>Shortly URL shortening API Challenge</title>
+</head>
+
+<body>
+  <!-- nav -->
+  <nav>
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.svg" width="">
+      </div>
+      <ul>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Restources</a>
+        <div class="right">
+          <a href="#">login</a>
+          <a href="#" class="btn">sign up</a>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <!-- end nav -->
+  <!-- main -->
+  <main>
+    <div class="container">
+      <div class="main__text">
+        <h1>More than just shorter links</h1>
+        <p>Build your brand’s recognition and get detailed insights
+          on how your links are performing.</p>
+        <button class="btn">Get Started</button>
+      </div>
+      <div class="main__img">
+        <img src="images/illustration-working.svg">
+      </div>
+    </div>
+  </main>
+  <!-- end main -->
+  <!-- shorten link-->
+  <section class="shorten">
+    <div class="container">
+      <div class="bg">
+        <div class="input-content">
+          <input type="text" placeholder="shorten a link here">
+          <button class="btn-encurtar">shorten it!</button>
+        </div>
+        <p class="error">Erro </p>
+      </div>
+    </div>
+  </section>
+  <!-- end shorten link-->
+  <section class="advanced">
+    <div class="container">
+      <div class="links-encurtados-container">
+        <div class="link">
+          <p class="original">https://todoist.com/app/today</p>
+          <a href="https://shrtco.de/BJW5Sx" class="encurtado">https://shrtco.de/BJW5Sx</a>
+          <button class="btn-copy" data-link="https://shrtco.de/BJW5Sx" onclick="copyLink()">Copy</button>
+        </div>
+      </div>
+      <h2>Advanced Statistics</h2>
+      <p>Track how your links are performing across the web with our
+        advanced statistics dashboard.</p>
+      <!-- cards -->
+      <div class="cards">
+        <div class="line"></div>
+        <div class="card">
+          <div class="card_img">
+            <img src="images/icon-brand-recognition.svg" alt="">
+          </div>
+          <h3 class="card_title">Brand Recognition</h3>
+          <p class="card_text">Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.</p>
+        </div>
+        <div class="card" style="top: 40px;">
+          <div class="card_img">
+            <img src="images/icon-detailed-records.svg" alt="">
+          </div>
+          <h3 class="card_title">Detailed Records</h3>
+          <p class="card_text">Gain insights into who is clicking your links. Knowing when and where
+            people engage with your content helps inform better decisions.</p>
+        </div>
+        <div class="card" style="top: 80px;">
+          <div class="card_img">
+            <img src="images/icon-fully-customizable.svg" alt="">
+          </div>
+          <h3 class="card_title">Fully Customizable</h3>
+          <p class="card_text">Improve brand awareness and content discoverability through customizable
+            links, supercharging audience engagement.</p>
+        </div>
+      </div>
+      <!-- cards -->
+    </div>
+  </section>
+  <!-- boost link -->
+  <section class="bost">
+    <div class="container">
+      <div>
+        <h2>Boost your links today</h2>
+        <button class="btn">Get Started</button>
+      </div>
+    </div>
+  </section>
+  <!-- end boost link -->
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <!-- row -->
+      <div class="row logo-footer">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <!-- row -->
+      <div class="row">
+        <h3>Features</h3>
+        <ul>
+          <li>Link Shortening</li>
+          <li>Branded Links</li>
+          <li>Analytics</li>
+        </ul>
+      </div>
+      <!-- row -->
+      <div class="row">
+        <h3>Resources</h3>
+        <ul>
+          <li>Blog</li>
+          <li>Developers</li>
+          <li>Support</li>
+        </ul>
+      </div>
+      <!-- row -->
+      <div class="row">
+        <h3>Company</h3>
+        <ul>
+          <li>About</li>
+          <li>Our Team</li>
+          <li>Careers</li>
+          <li>Contact</li>
+      </div>
+      <!-- row -->
+      <div class="row medias-socias">
+        <img src="images/icon-facebook.svg" alt="facebook">
+        <img src="images/icon-twitter.svg" alt="twitter">
+        <img src="images/icon-pinterest.svg" alt="pinterest">
+        <img src="images/icon-instagram.svg" alt="instagram">
+      </div>
+    </div>
+  </footer>
+  <!-- alert internet -->
+  <div class="alert-internet">
+    <div class="img">
+      <img src="images/no-intenet.png" alt="Internet">
+    </div>
+    <div class="text">
+      <strong>OPS:) Sem Internet</strong>
+      <p>Neste momento, estás offline.</p>
+    </div>
+  </div>
+</body>
+</html>
