@@ -26,6 +26,11 @@
           <a href="#" class="btn">sign up</a>
         </div>
       </ul>
+      <div class="icon-menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+          <div>
+            <span></span>
+          </div>
+      </div>
     </div>
   </nav>
   <!-- end nav -->
@@ -50,9 +55,9 @@
       <div class="bg">
         <div class="input-content">
           <input type="text" placeholder="shorten a link here">
-          <button class="btn-encurtar">shorten it!</button>
+          <p class="error">Erro</p>
         </div>
-        <p class="error">Erro </p>
+        <button class="btn-encurtar">shorten it!</button>
       </div>
     </div>
   </section>
@@ -60,7 +65,7 @@
   <section class="advanced">
     <div class="container">
       <div class="links-encurtados-container">
-        
+
       </div>
       <h2>Advanced Statistics</h2>
       <p>Track how your links are performing across the web with our
@@ -160,4 +165,5 @@
     </div>
   </div>
 </body>
+
 </html>

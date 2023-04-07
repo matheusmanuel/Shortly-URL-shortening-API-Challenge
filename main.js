@@ -3,9 +3,9 @@ const input = document.querySelector(".shorten input[type=text]");
 
 btnEncurtar.addEventListener("click", () => {
   if (input.value.trim() == "") {
-    showErrorMessage("Por favor digite um link..");
+    showErrorMessage("Por favor digite uma url...");
   } else if (!isUrl(input.value.trim())) {
-    showErrorMessage("Digita uma url correcta");
+    showErrorMessage("Digite uma url correcta por favor");
   } else {
     removeErrorMessage();
     let url = `https://api.shrtco.de/v2/shorten?url=${input.value.trim()}`;
@@ -17,7 +17,7 @@ btnEncurtar.addEventListener("click", () => {
 // Evento de digitar no input da url
 input.addEventListener("keyup", () => {
   if (input.value.trim() == "") {
-    showErrorMessage("Por favor digite um link...");
+    showErrorMessage("Por favor digite uma url...");
   } else if (!isUrl(input.value.trim())) {
     showErrorMessage("Digite uma url correcta por favor");
   } else {
@@ -59,8 +59,10 @@ function addLinkInHTML(linkOriginal, LinkEncurtado) {
   let linksContainer = document.querySelector(".links-encurtados-container");
   let templateDiv = `<div class="link">
           <p class="original">${linkOriginal}</p>
+          <div>
           <a href="${LinkEncurtado}" class="encurtado">${LinkEncurtado}</a>
           <button class="btn-copy" data-link="${LinkEncurtado}">Copy</button>
+          </div>
         </div>
         `;
   linksContainer.innerHTML += templateDiv;
