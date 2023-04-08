@@ -30,7 +30,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [[Adicionar URL da solução aqui](https://www.frontendmentor.io/solutions/shortly-url-shortening-api-challenge-XgrdVwwG-E)]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/shortly-url-shortening-api-challenge-XgrdVwwG-E))
+- URL da solução: [[https://www.frontendmentor.io/solutions/shortly-url-shortening-api-challenge-XgrdVwwG-E]]
 - URL do site ao vivo: [https://matheusmanuel.github.io/Shortly-URL-shortening-API-Challenge/](https://matheusmanuel.github.io/Shortly-URL-shortening-API-Challenge/)
 
 
@@ -43,7 +43,7 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- Website - [Matheus manuel](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- instagram - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Matheus manuel](https://matheusmanuel.github.io/)
+- Frontend Mentor - [@matheusmanuel](https://www.frontendmentor.io/profile/matheusmanuel)
+- instagram - [@matheusmanuel.dev/](https://www.instagram.com/matheusmanuel.dev/)
 - youtube - [@mathesmanuel](https://youtube.com/matheusmanuel)
