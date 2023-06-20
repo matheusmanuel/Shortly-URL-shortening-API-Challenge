@@ -43,7 +43,7 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- Website - [Matheus manuel](https://matheusmanuel.netlify.app/)
+- Website - [https://matheusmanuel.netlify.app/](https://matheusmanuel.netlify.app/)
 - Frontend Mentor - [@matheusmanuel](https://www.frontendmentor.io/profile/matheusmanuel)
 - instagram - [@matheusmanuel.dev/](https://www.instagram.com/matheusmanuel.dev/)
 - youtube - [@mathesmanuel](https://youtube.com/matheusmanuel)
